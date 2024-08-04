@@ -17,11 +17,11 @@
             <form action="cadastro.js" method="post" autocomplete="on" id="formulario">
                 <div class="formulario_itens">
                     <label for="email"><i class="fa-solid fa-user"></i></label>
-                    <input type="email" name="email" id="email" placeholder="Email" maxlength="30" required>
+                    <input type="email" name="email" id="email" placeholder="Email" maxlength="30" required autocomplete="email">
                 </div>
                 <div class="formulario_itens">
                     <label for="senha"><i class="fa-solid fa-lock"></i></label>
-                    <input type="password" name="senha" id="senha" placeholder="Senha" minlength="8" maxlength="20" required>
+                    <input type="password" name="senha" id="senha" placeholder="Senha" minlength="8" maxlength="20" required autocomplete="current-password">
                 </div>
             </form>
             <input type="submit" value="Entrar">
